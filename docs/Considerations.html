@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Considerations to re-platforming | Replatforming Models</title>
+  <meta name="description" content="A guide to replatforming models. The output format for this example is bookdown::gitbook." />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Considerations to re-platforming | Replatforming Models" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="A guide to replatforming models. The output format for this example is bookdown::gitbook." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Considerations to re-platforming | Replatforming Models" />
+  
+  <meta name="twitter:description" content="A guide to replatforming models. The output format for this example is bookdown::gitbook." />
+  
+
+<meta name="author" content="Eugene Chang and Leanne Sunter" />
+
+
+<meta name="date" content="2020-05-21" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="practical.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a></li>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#who-should-read-this-guidance"><i class="fa fa-check"></i><b>1.1</b> Who should read this guidance?</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Considerations.html"><a href="Considerations.html"><i class="fa fa-check"></i><b>2</b> Considerations to re-platforming</a><ul>
+<li class="chapter" data-level="2.1" data-path="Considerations.html"><a href="Considerations.html#barriers-to-re-platforming"><i class="fa fa-check"></i><b>2.1</b> Barriers to re-platforming</a></li>
+<li class="chapter" data-level="2.2" data-path="Considerations.html"><a href="Considerations.html#benefits-of-re-platforming"><i class="fa fa-check"></i><b>2.2</b> Benefits of re-platforming</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="practical.html"><a href="practical.html"><i class="fa fa-check"></i><b>3</b> Practical guidance on how to implement a re-platform</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Replatforming Models</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="Considerations" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Considerations to re-platforming</h1>
+<p>In addition to the many advantages in porting models into open source software, there are also a range of barriers. In this section we discuss these barriers, risks arising from this process and the many benefits realised from re-platforming. We also highlight instances where porting a model may not be the optimal solution and discuss obtaining buy-in from stakeholders.</p>
+<div id="barriers-to-re-platforming" class="section level2">
+<h2><span class="header-section-number">2.1</span> Barriers to re-platforming</h2>
+<p>The level and mixture of skills within a team/unit/division can be a barrier, with models often built in a ‘common denominator’ software in order to ensure everyone within a team is able to use and update it.
+It may be particularly challenging to upskill individuals in relevant languages and/or re-platform a model alongside Business As Usual (BAU) work. Carving out enough time to learn new languages and/or techniques is difficult but as discussed shortly, will often reap time-saving rewards in the longer term.</p>
+<p>There may also be barriers to re-platforming when a model needs to be shared and/or used by non-technical collagues. This may prevent re-platforming but there may be ways in which the model could be re-platformed with a user interface that would facilitate sharing and/or use by someone without the relevant technical skills.</p>
+<p>For very simple models, there may simply be no clear need or benefit to re-platforming and this should be considered before time is invested in re-platforming unnecessarily. However, for more complex models, complexity may also be a barrier to re-platforming. More complex models are likely to take more time to build and may involve ????</p>
+<p>How complex is the model? e.g.
+• A stock/flow model with a small number of stocks and flows
+• A linear regression model
+• A complex forecasting model involving multiple steps
+• A stochastic individual level model with data preparation, status prediction via logistic regression, then using the status to predict a linear range</p>
+<p>##Risks of re-platforming</p>
+</div>
+<div id="benefits-of-re-platforming" class="section level2">
+<h2><span class="header-section-number">2.2</span> Benefits of re-platforming</h2>
+<p>In short, there are two key benefits to re-platforming:</p>
+<p>1: <a href="https://ukgovdatascience.github.io/rap_companion/">Reproducible Analytical Pipeline (RAP)</a></p>
+<p>2: Speed</p>
+<p>A Reproducible Analytical Pipeline is hugely beneficial and brings numerous benefits discussed elsewhere. But in short, automating tasks reduces the risk of errors, supports and enables easier version control processes (for example through “Git” or other tools) and collaboration and, if done properly, it means that quality assurance processes are embedded throughout the pipeline as opposed to a time-consuming and manual task at the end of a project or model completion.</p>
+<p>Speed is the second key benefit of a re-platformed model. A code-based approach can quickly and repeatedly access relevant data, perform relevant calculations and produce a variety of outputs and documentation <strong>and</strong> perform built-in checks. Automating these processes frees up time for people to focus on more challenging and interesting tasks that are likely to add more value in the long run.</p>
+<p><strong>For stakeholders</strong>, the end result is more time for analysts to focus on more complex problems; robust, rapidly produced outputs and when done well potentially greater scenario testing across assumptions due to increased versatility of model.</p>
+<p>##Should you re-platform?</p>
+<p>Before embarking on re-platforming, even now that you know about the potential barriers, it is still important to consider whether re-platforming is really the right choice for your model.</p>
+<p>Some important questions to ask yourself before moving ahead include:
+• How complex is the model?
+• How frequently is the data refreshed?
+• How frequently do the data inputs change (formats)?
+• How many different data inputs are there?
+• How frequently do the required outputs change?
+• Who needs to use the model?</p>
+<p>If a model is very simple and quick to update once a year with a single, very consistent data input and a fixed output, it may not be sensible to spend time re-platforming. However, even a simple model that requires frequent data refreshes could be considered for re-platforming. Continuing along that spectrum, a more complex model with multiple inputs would definitely be a strong candidate for re-platforming.</p>
+<p>Ultimately, it’s about weighing up whether the investment in the re-platforming process is worthwhile. In a lot of instances this will be the case but for some of the simplest models, or models which need to be used by a non-technical person, it might be necessary to keep the model in Excel.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="practical.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
